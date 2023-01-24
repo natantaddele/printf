@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-    _putchar("%b\n", 98);
+    _printf("%b\n", 98);
+    
     return (0);
 }
