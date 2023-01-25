@@ -15,7 +15,7 @@ int print_b(va_list binary_list)
 
 	if (Num < 1)
 	{
-		_putchar(48);
+		putchar(48);
 		count++;
 		return (count);
 	}
