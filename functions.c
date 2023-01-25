@@ -163,7 +163,6 @@ int print_binary(va_list types, char buffer[],
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
-	
 	for (i = sizeof(int) * 8 - 1; i >= 0; i--)
 	{
 		if (n & (1 << i))
@@ -175,5 +174,5 @@ int print_binary(va_list types, char buffer[],
 			putchar('0');
 		}
 	}
-	return 0;
+	return (0);
 }
